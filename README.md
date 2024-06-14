@@ -78,8 +78,6 @@ redux \
 
 react-redux \
 
-redux-thunk \
-
 redux-devtools-extension Step 3: How to set up reducers Now let's create the reducer for our application.
 
 In the src directory, create a new folder called reducers, and inside that folder, create two new files: index.js and taskReducer.js.
@@ -271,8 +269,6 @@ import React from "react"; import ReactDOM from "react-dom/client"; import App f
 import store from "./store.js"; import { Provider } from "react-redux";
 
 ReactDOM.createRoot(document.getElementById("root")).render( <React.StrictMode> </React.StrictMode> ); Create components You can now create React components such as Task.jsx and TaskList.jsx that use the useSelector hook to access the current state from the store. Similarly, you can use the useDispatch hook to dispatch actions to update the store, just as you did in plain Redux.
-
-You should now have the same app as before with a few updates from Redux Toolkit and a lot less code to maintain.
 
 About
 In the shopping cart cart items that Needs to Increase or Decrease the per unit Quantity that should automatically updates the total Quantity and Amount.
